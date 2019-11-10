@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #4A96AD;
+  background: -webkit-linear-gradient(left top, #1bbcb2, #4A96AD); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #1bbcb2, #4A96AD); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #1bbcb2, #4A96AD); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #1bbcb2, #4A96AD); /* Standard syntax */
+  font-size: 13px;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+
+.appbox {
+  margin-top: 100px;
+  padding: 20px;
+  background-color:  #F5F3EE;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 2px 2px 8px #3b7b8f;
+}
+
+.center {
+  text-align: center;
+}
+
+#summary {
+  font-size: 1.3em;
+}
+
+#temperature {
+  font-size: 6em;
+  font-weight: bold;
+}
+
+#tempconv .btn {
+  margin: 0 5px;
+}
+
+.col-xs-12 {
+  padding-top: 22px;
+}
+
+#locname {
+  padding-bottom: 10px;
+}
